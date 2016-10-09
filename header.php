@@ -20,8 +20,17 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/assets/js/html5.min.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
-		<!-- Vous pouvez mettre ici toutes les infos que vous voulez retrouver dans le header de toutes vos pages  -->
+<i class="fa fa-spoon" aria-hidden="true"></i>
+	<header>
+		<nav>
+			<ul class="menu">
+				<li>Les ustensiles de Yoan</li>
+				<li>Les ingrédients de Yoan</li>
+				<li>Les recettes de Marjo</li>
+			</ul>
+		</nav>
+		<h1> Yoan le foody </h1>
 	</header>
